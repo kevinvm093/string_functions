@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D05A664E1E45425E000D1B4C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D05A664D1E45425E000D1B4C /* main.cpp */; };
+		D05A664E1E45425E000D1B4C /* program3_strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D05A664D1E45425E000D1B4C /* program3_strings.cpp */; };
+		D05A66591E47BF5D000D1B4C /* strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D05A66571E47BF5D000D1B4C /* strings.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		D05A664A1E45425E000D1B4C /* unit5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = unit5; sourceTree = BUILT_PRODUCTS_DIR; };
-		D05A664D1E45425E000D1B4C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D05A664D1E45425E000D1B4C /* program3_strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = program3_strings.cpp; sourceTree = "<group>"; };
+		D05A66571E47BF5D000D1B4C /* strings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = strings.cpp; sourceTree = "<group>"; };
+		D05A66581E47BF5D000D1B4C /* strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strings.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		D05A664C1E45425E000D1B4C /* unit5 */ = {
 			isa = PBXGroup;
 			children = (
-				D05A664D1E45425E000D1B4C /* main.cpp */,
+				D05A664D1E45425E000D1B4C /* program3_strings.cpp */,
+				D05A66571E47BF5D000D1B4C /* strings.cpp */,
+				D05A66581E47BF5D000D1B4C /* strings.h */,
 			);
 			path = unit5;
 			sourceTree = "<group>";
@@ -120,7 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D05A664E1E45425E000D1B4C /* main.cpp in Sources */,
+				D05A664E1E45425E000D1B4C /* program3_strings.cpp in Sources */,
+				D05A66591E47BF5D000D1B4C /* strings.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
