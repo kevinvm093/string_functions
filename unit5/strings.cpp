@@ -29,6 +29,12 @@ bool palindrome(const string & s)
     return true;
 }
 
+bool palindrome_short(const std::string & s)
+{
+	string r = s; std::reverse(r.begin(), r.end());
+	return s == r;
+}
+
 string replace_all(const string & orignal_string, const string & old_substring, const string & new_substring)
 {
     string s = orignal_string;

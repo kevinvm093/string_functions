@@ -16,6 +16,7 @@ using namespace std;
 
 
 bool palindrome(const string & s);
+bool palindrome_short(const std::string & s);
 string replace_all(const string & orignal_string, const string & old_substring, const string & new_substring);
 
 
